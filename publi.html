@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Página Moderna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #f5f5f5;
+      color: #222;
+      padding: 1.5rem 1rem;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-header img {
+      max-width: 250px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .titulo-header {
+      flex-grow: 1;
+    }
+
+    .titulo-header h1 {
+      font-size: 1.5rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .titulo-header p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background-color: #fafafa;
+      border-bottom: 1px solid #eee;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #888;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid #e0e0e0;
+    }
+
+    h2 {
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+
+    .publicaciones {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .publicacion {
+      width: 200px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .publicacion:hover {
+      transform: scale(1.03);
+    }
+
+    .publicacion img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-header">
+      <img src="Portafolio/logo.png" alt="Logo del Journal">
+    </div>
+    <div class="titulo-header">
+      <h1>Publicaciones</h1>
+      <p>Innovación y tecnología a tu alcance</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="Acerca.html">Acerca</a>
+    <a href="publi.html">Publicaciones</a>
+    <a href="proceso.html">Proceso de Publicación</a>
+    <a href="conta.html">Contacto</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Publicaciones</h2>
+      <div class="publicaciones">
+        <a href="Portafolio/VOOL1.pdf" class="publicacion" target="_blank">
+          <img src="images/PB.png" alt="Publicación 1">
+        </a>
+        <a href="Portafolio/VOOL1.pdf" class="publicacion" target="_blank">
+          <img src="images/PB.png" alt="Publicación 2">
+        </a>
+        <a href="Portafolio/VOOL1.pdf" class="publicacion" target="_blank">
+          <img src="images/PB.png" alt="Publicación 3">
+        </a>
+        <a href="Portafolio/VOOL1.pdf" class="publicacion" target="_blank">
+          <img src="images/PB.png" alt="Publicación 4">
+        </a>
+      </div>
+    </section>
+
+  <footer>
+    <p>&copy; 2025 Journal de Rehabilitación y Medicina Complementaria - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

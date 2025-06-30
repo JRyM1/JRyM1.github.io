@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Página Moderna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #f5f5f5;
+      color: #222;
+      padding: 1.5rem 1rem;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-header img {
+      max-width: 250px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .titulo-header {
+      flex-grow: 1;
+    }
+
+    .titulo-header h1 {
+      font-size: 1.5rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .titulo-header p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background-color: #fafafa;
+      border-bottom: 1px solid #eee;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #888;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid #e0e0e0;
+    }
+
+    h2 {
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top: 1px solid #ddd;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-header">
+      <img src="Portafolio/logo.png" alt="Logo del Journal">
+    </div>
+    <div class="titulo-header">
+      <h1>Proceso de Publicacion</h1>
+      <p>Innovación y tecnología a tu alcance</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="Acerca.html">Acerca</a>
+    <a href="publi.html">Publicaciones</a>
+    <a href="proceso.html">Proceso de Publicación</a>
+    <a href="conta.html">Contacto</a>
+  </nav>
+
+  <main>
+     <section>
+    <!-- Imagen principal del post de proceso de publicación -->
+    <img src="images/proceso.png" alt="Proceso de publicación" style="width:100%; border-radius: 10px; margin-bottom: 1rem;">
+  </section>
+    
+
+    <section>
+      <h2>Revista de Biomecánica y Biónica</h2>
+      <p>
+        Es una plataforma especializada en la difusión y promoción de la investigación y el desarrollo en las disciplinas de la biomecánica y la biónica. La revista ofrece una amplia variedad de artículos originales, revisiones y comunicaciones breves en áreas como biomecánica humana y animal, ingeniería biomédica, robótica biónica, entre otros.
+      </p>
+      <p>
+        Nuestra misión es contribuir a la difusión del conocimiento científico y tecnológico en estas áreas, fomentar la colaboración interdisciplinaria entre investigadores, ingenieros y profesionales de la salud, y facilitar el acceso a información de alta calidad para nuestra comunidad académica y profesional a nivel global.
+      </p>
+      <h3>Estructura de los artículos</h3>
+      <ul>
+        <li>Portada. Título</li>
+        <li>Resumen del estudio: Objetivos, método, resultados, conclusiones e implicaciones principales.</li>
+        <li>Abstract (en inglés)</li>
+        <li>Introducción: Problema de estudio, objetivos, antecedentes, relevancia.</li>
+        <li>Estado del arte: Revisión de estudios y teorías relevantes.</li>
+        <li>Método: Proceso detallado de investigación.</li>
+        <li>Resultados: Presentación clara y objetiva.</li>
+        <li>Discusión, conclusiones e implicaciones.</li>
+        <li>Referencias.</li>
+      </ul>
+      <h3>Proceso de envío</h3>
+      <p>
+        Se sugiere enviar el manuscrito al correo de la revista (XXXXX) y esperar la revisión del editor, lo cual puede tardar hasta un mes. Durante este tiempo, el documento será considerado confidencial.
+      </p>
+      <p><strong>Respuestas posibles del editor:</strong></p>
+      <ul>
+        <li>No aceptado</li>
+        <li>Aceptado con cambios mayores</li>
+        <li>Aceptado con cambios menores</li>
+        <li>Aceptado</li>
+      </ul>
+      <p>
+        Si se reciben sugerencias de corrección, es importante tomarlas de forma objetiva y constructiva, ya que están orientadas a mejorar el manuscrito. Una vez aceptado, archivar la constancia de aceptación y seguir las instrucciones del editor para la publicación.
+      </p>
+      <p class="fw-bold text-center mt-4">
+  <a href="portafolio/PB.docx" class="btn btn-outline-primary me-2">Descargar documento patrón</a>
+  <a href="https://drive.google.com/drive/folders/1tIJNK8YB5slXBE0NX6GRak578wPi_mue?usp=sharing" target="_blank" class="btn btn-outline-success">Sube tu articulo aqui</a>
+</p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Journal de Rehabilitación y Medicina Complementaria - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
