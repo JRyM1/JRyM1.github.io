@@ -127,35 +127,45 @@
   </nav>
 
 
+<main class="container text-center mt-5">
+  <h1 class="mb-4">Contáctanos</h1>
+  <p class="mb-4" style="font-size: 1.1rem;">
+    Por el momento el contacto será solamente vía correo electrónico. 
+    Puedes usar el formulario para enviarnos un mensaje o comentario.
+  </p>
 
-     <main class="container text-center mt-5">
-    <h1 class="mb-4">Contáctanos</h1>
-    <p class="mb-5" style="font-size: 1.1rem;">
-      Puedes comunicarte con nosotros a través de los siguientes medios:
-    </p>
-
-    <div class="row justify-content-center g-4">
-      <div class="col-6 col-md-3">
-        <a href="https://wa.me/5576859436" target="_blank">
-          <img src="images/whats.png" alt="WhatsApp" class="img-fluid" style="max-height: 100px;">
-          <p class="mt-2">WhatsApp</p>
-        </a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="mailto:rehabilitacionymedici@gmail.com">
-          <img src="images/corre.png" alt="Correo" class="img-fluid" style="max-height: 100px;">
-          <p class="mt-2">Correo</p>
-        </a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="tel:+5576859436">
-          <img src="images/phone.jpg" alt="Teléfono" class="img-fluid" style="max-height: 100px;">
-          <p class="mt-2">Teléfono</p>
-        </a>
-      </div>
   
+  <div class="mb-5">
+    <img src="images/corre.png" alt="Correo" class="img-fluid" style="max-height: 100px;">
+    <p class="mt-2">rehabilitacionymedici@gmail.com</p>
+  </div>
+
+ 
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-start">
+      <form action="https://formsubmit.co/rehabilitacionymedici@gmail.com" method="POST">
+        <!-- Aqui debes de cambiar donde dice tu usuario por el nombre de usuaruo de git y tambien el tu repo al nombre del repositorio -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://jrym1.github.io/GRACIASSS.htlm>
+
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Tu correo electrónico:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje:</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </div>
-  </main>
+  </div>
+</main>
+
 
    <footer>
     <p>&copy; 2025 Journal de Rehabilitación y Medicina Complementaria - Todos los derechos reservados.</p>
